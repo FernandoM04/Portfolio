@@ -1,0 +1,145 @@
+<html lang="en">
+  <head> 
+    <meta charset="UTF-8" />
+    <meta name = "viewport" content="with=decice-with, initial-scale-1" />
+    <title>Portfolio - Fernando Martinez</title>
+    <link rel="stylesheet" href="Portfolio.css"/>
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <div class="brand">Portfolio</div>
+        <div class= "menu">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#education">Education</a>
+          <a href="#certifications">Certifications</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home">
+        <h1>Fernando Martinez</h1>
+        <p>Computer Science Student | Cybersecurity </p>
+        <div class="grid" style="margin-top:1rem;">
+          <a class="btn" href="./assets/pdfs/FernandoMartinez-CybersecurityResume.pdf" download>Download CV</a>
+        </div>
+      </section>
+
+      <section id="about">
+        <h2>About</h2>
+        <p>Computer Science student specializing in cybersecurity, network defense, and incident response. Experienced with Linux, SQL, and Wireshark through hands-on labs and Google Cybersecurity Professional Certificate coursework</p>
+      </section>
+
+      <section id="skills">
+        <h2>Skills</h2>
+        <div class="grid">
+        <div class="card">Technical Skills
+        <ul>
+          <li>Linux (chmod, ls, chown)</li>
+          <li>Wireshark(Packet Analysis)</li>
+          <li>Splunk(SIEM)</li>
+          <li>SQL</li>
+          <li>Python</li>
+        </ul>
+        </div>
+        <div class="card">Security Skills
+        <ul>
+          <li>NSIT Framework</li>
+          <li>CIA Triad</li>
+          <li>Incident Response</li>
+          <li>Log Analysis</li>
+        </ul>
+        </div>
+        <div class="card">Soft Skills
+        <ul>
+          <li>Analytical Thinking</li>
+          <li>Communication</li>
+          <li>Leadership</li>
+        </ul>
+        </div>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <div id=" projectGrid" class="grid"></div>
+        <h3>File Permissions in Linux - Security Lab</h3>
+        <p>Configured file and directory permissions using chmod, ls, -l and chown to apply least privilefe access.</p>
+        <p>Validated secure access control across 3 directories, preventing unauthorized writes. </p>
+        <h3>SQL Security Filtering - Data Analyst Project</h3>
+        <p>Queried simulated login datasets to detect abnormal logins and Boolean anomalies.</p> 
+        <p>Proposed access-control refinements improving detection of unauthorized accounts.</p>
+        <h3>Log analyzer in Python</h3>
+        <p>Developed a Python script parse system log files and detect repeated IP addresses indicating potential brute-force attempts.</p>
+        <p>Utilized regex, file I/O, and CSV output to automate reporting of suspiciois login patterns</p>
+      </section>
+
+      <section id="experience">
+        <h2>Experience</h2>
+        <div class="timeline">
+          <div class="card" style="margin:0;">
+            <h3>Senator - Societt of Hispanic Professional Engineers</h3>
+            <p style="opacity: .8; margin:.25 0 1rem;">2024-Present</p>
+            <ul>
+              <li>Planned Professional events promoting diversity in tech with engineering students.</li>
+              <li>Led meetings and coordinated initiatives improving student engagement and STEM participation.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="education">
+        <h2>Education</h2>
+        <div class="grid">
+          <div class="card">
+            <h3>Bachelor of Computer Science - New York Institute of Technology, Old Westbury NY</h3>
+            <p style="opacity: .8;">Fal 2023 - Spring 2027</p>
+            <p>Relevant coursework: Data Structures, Operating Systems, Programming Language Concepts</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="certifications">
+        <h2>Certifications</h2>
+        <div class="grid">
+          <div class="card">
+            <h3>Google Cybersecurity Professional Certifications</h3>
+            <p style="opacity: .8;">Issued 2025</p>
+          </div>
+          <div class="card">
+            <h3>Meta Full-Stack Developer specialization</h3>
+            <p style="opacity: .8;">In progress</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <form id="contactForm">
+          <input type="text" placeholder="Name" required />
+          <input type="email" placeholder="email" required />
+          <textarea placeholder="Message"></textarea>
+          <button type="submit" class="btn">Send</button>
+        </form>
+        <div class="card" style="margin-top: 1rem;">
+          <h3>Links</h3>
+          <ul>
+            <li><a href="mailto:martinezjamil2004@gmail.com">martinezjamil2004@gmail.com</a></li>
+            <li><a href="https://www.linkedin.com/in/fernando-m04" target="_blank">LinkedIn</a></li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>@ <span id="2025"></span> Fernando Martinez</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+
+    </html>
